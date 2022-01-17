@@ -11,7 +11,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="6*"/>
         </Grid.RowDefinitions>
-        <TextBox Grid.Row="0" Margin="5" Text="1 234.567" FontSize="18" Background="#FF101010" Foreground="#FF00DC10" BorderBrush="#FF00DC10" BorderThickness="2" VerticalContentAlignment="Bottom" HorizontalContentAlignment="Right" SelectionBrush="#FF10DC20"/>
+        <TextBlock Grid.Row="0" Margin="5" Padding="5" Text="1 234.567" TextAlignment="Right" FontSize="18" Background="#FF101010" Foreground="#FF00DC10"/>
         <UniformGrid Grid.Row="1" Rows="6" Columns="4" Background="Black">
             <Button Content="%" Margin="5" Foreground="#FF00DC10" BorderBrush="#FF00DC10" Background="#FF101010" BorderThickness="2"/>
             <Button Content="CE" Margin="5" Foreground="#FF00DC10" BorderBrush="#FF00DC10" Background="#FF101010" BorderThickness="2"/>
